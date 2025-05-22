@@ -14,59 +14,60 @@ Designed for **canteens, hostels, office kitchens**, and **restaurant chains** t
 
 ## ✨ Features
 
-🔹 Filament 3 Admin Panel  
-🍛 Meal Category & Item Management  
-🗓️ Dynamic Daily Meal Menu  
-🛒 Order Placement & Status Update  
-📦 Meal Statuses: Pending, Preparing, Delivered  
-📊 Filament Widgets: Today's Orders, Earnings  
-👥 Multi-role Access (Admin, Kitchen Staff, Customer)  
-🖼️ Custom Filament Icons (SVG-based)  
-📱 Responsive Design (TailwindCSS)
+- 🔹 Filament 3 Admin Panel  
+- 🍛 Meal Category & Item Management  
+- 🗓️ Dynamic Daily Meal Menu  
+- 🛒 Order Placement & Status Update  
+- 📦 Meal Statuses: Pending, Preparing, Delivered  
+- 📊 Filament Widgets: Today's Orders, Earnings  
+- 🧾 PDF Report Generation for Orders & Meals  
+- 🛠️ Kitchen Product Management System  
+- 👥 Multi-role Access (Admin, Kitchen Staff, Customer)  
+- 🖼️ Custom Filament Icons (SVG-based)  
+- 📱 Responsive Design using TailwindCSS
 
 ---
 
 ## 👥 User Roles & Access
 
-| Role          | Permissions                            |
-|---------------|----------------------------------------|
-| 👑 Admin       | Manage everything (CRUD, Users, Orders) |
-| 👨‍🍳 Kitchen    | View & update order statuses            |
-| 🙋 Customer     | Browse menu & place meal orders        |
+| Role          | Permissions                                                                 |
+|---------------|-----------------------------------------------------------------------------|
+| 👑 Admin       | Manage everything (CRUD, users, meals, orders, reports)                    |
+| 👨‍🍳 Kitchen    | Manage orders, update statuses, manage products, generate PDF reports       |
+| 🙋 Customer     | View daily menu, place orders, view order history                          |
 
 ---
 
 ## ⚙️ Tech Stack
 
-| Layer        | Tools/Frameworks         |
-|--------------|--------------------------|
-| Backend      | Laravel 12               |
-| UI & Admin   | FilamentPHP 3 + Tailwind |
-| Database     | MySQL                    |
-| Icons        | Custom SVG Icons         |
-| Auth         | Laravel Breeze           |
-| Deployment   | Localhost / cPanel       |
+| Layer        | Technology                                   |
+|--------------|----------------------------------------------|
+| 🧠 **Backend**     | [Laravel 12](https://laravel.com)                 |
+| 🎨 **Admin UI**    | [FilamentPHP 3](https://filamentphp.com), TailwindCSS |
+| 🛢️ **Database**    | MySQL                                            |
+| 🎭 **Icons**       | Custom SVG Icons for Filament                   |
+| 🔐 **Authentication** | Laravel Breeze (Simple Auth Scaffolding)       |
+| 🌍 **Deployment**  | Localhost / Shared Hosting (e.g., cPanel)        |
+| 📄 **PDF Export**  | Laravel-Dompdf (for generating downloadable reports) |
 
 ---
 
 ## 🧪 Screenshots
 
-> Add screenshots under `public/screenshots/` folder (already linked here)
+ ![Dashboard](https://github.com/user-attachments/assets/682b6fba-f9c5-4838-815f-0aac55506e08) 
+[Orders](https://github.com/user-attachments/assets/195b497d-2c7a-4816-89b0-155cdf0891c9) 
+[Meals](https://github.com/user-attachments/assets/ccbbec0a-a0d0-4bbf-9081-8246cfcdcefb) 
 
 
-|![Dashboard](https://github.com/user-attachments/assets/682b6fba-f9c5-4838-815f-0aac55506e08) |
-![Orders](https://github.com/user-attachments/assets/195b497d-2c7a-4816-89b0-155cdf0891c9) |
-![Meals](https://github.com/user-attachments/assets/ccbbec0a-a0d0-4bbf-9081-8246cfcdcefb) |
-![Kitchen](https://github.com/user-attachments/assets/a208a873-f7c6-4304-9e44-edef4b4537b6) |
-| ![Stats](https://github.com/user-attachments/assets/b3422848-e95a-48c9-b20e-17e567e06853) |
-![Add Meal](https://github.com/user-attachments/assets/b72f393e-e6e6-4bbe-b805-94b3cd6cb2bc) |
-![Icons](https://github.com/user-attachments/assets/77b344a4-39f4-47f0-8b19-a744046abf4c) |
+ ![Kitchen](https://github.com/user-attachments/assets/a208a873-f7c6-4304-9e44-edef4b4537b6) 
+[Stats](https://github.com/user-attachments/assets/b3422848-e95a-48c9-b20e-17e567e06853) 
+![Add Meal](https://github.com/user-attachments/assets/b72f393e-e6e6-4bbe-b805-94b3cd6cb2bc) 
 
 ---
 
 ## 🚀 Installation Guide
 
-To run this project locally, follow the steps below:
+To run this project locally:
 
 ```bash
 # 1. Clone the Repository
@@ -83,7 +84,7 @@ npm install && npm run build
 cp .env.example .env
 php artisan key:generate
 
-# 5. Run Database Migration & Seeders
+# 5. Run Database Migration & Seeder
 php artisan migrate --seed
 
 # 6. Serve the Application
