@@ -40,14 +40,16 @@ Designed for **canteens, hostels, office kitchens**, and **restaurant chains** t
 
 ## ⚙️ Tech Stack
 
-| Layer        | Technology                                   |
-|--------------|----------------------------------------------|
-| 🧠 **Backend**     | [Laravel 12](https://laravel.com)                 |
-| 🎨 **Admin UI**    | [FilamentPHP 3](https://filamentphp.com), TailwindCSS |
-| 🛢️ **Database**    | MySQL                                            |
-| 🎭 **Icons**       | Custom SVG Icons for Filament                   |
-| 🔐 **Authentication** | Laravel Breeze (Simple Auth Scaffolding)       |
-| 🌍 **Deployment**  | Localhost / Shared Hosting (e.g., cPanel)        |
+| Layer            | Technology                                                                                  |
+|------------------|---------------------------------------------------------------------------------------------|
+| 🧠 **Backend**     | ![Laravel](https://img.shields.io/badge/Laravel-12-red?style=flat&logo=laravel) [Laravel 12](https://laravel.com)           |
+| 🎨 **Admin UI**    | ![FilamentPHP](https://img.shields.io/badge/Filament-3-blueviolet?style=flat&logo=laravel) [FilamentPHP 3](https://filamentphp.com), ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white) TailwindCSS  |
+| 🛢️ **Database**    | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white) MySQL                                           |
+| 🎭 **Icons**       | ![SVG](https://img.shields.io/badge/SVG-FFB13B?style=flat&logo=svg&logoColor=white) Custom SVG Icons                                      |
+| 🔐 **Authentication** | ![Laravel Breeze](https://img.shields.io/badge/Laravel_Breeze-FF2D20?style=flat&logo=laravel&logoColor=white) Laravel Breeze (Auth Scaffolding)      |
+| 🌍 **Deployment**  | ![Localhost](https://img.shields.io/badge/Localhost-6FCF97?style=flat) Localhost / ![cPanel](https://img.shields.io/badge/cPanel-F58B00?style=flat&logo=cpanel&logoColor=white) Shared Hosting (e.g., cPanel)            |
+| 📄 **PDF Export**  | ![Dompdf](https://img.shields.io/badge/Laravel-Dompdf-FF2D20?style=flat&logo=laravel&logoColor=white) Laravel-Dompdf (PDF Reports)             |
+
 | 📄 **PDF Export**  | Laravel-Dompdf (for generating downloadable reports) |
 
 ---
