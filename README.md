@@ -54,14 +54,13 @@ Designed for **canteens, hostels, office kitchens**, and **restaurant chains** t
 
 ## 🧪 Screenshots
 
- ![Dashboard](https://github.com/user-attachments/assets/682b6fba-f9c5-4838-815f-0aac55506e08) 
-[Orders](https://github.com/user-attachments/assets/195b497d-2c7a-4816-89b0-155cdf0891c9) 
-[Meals](https://github.com/user-attachments/assets/ccbbec0a-a0d0-4bbf-9081-8246cfcdcefb) 
-
-
- ![Kitchen](https://github.com/user-attachments/assets/a208a873-f7c6-4304-9e44-edef4b4537b6) 
-[Stats](https://github.com/user-attachments/assets/b3422848-e95a-48c9-b20e-17e567e06853) 
-![Add Meal](https://github.com/user-attachments/assets/b72f393e-e6e6-4bbe-b805-94b3cd6cb2bc) 
+![Screenshot 1](https://github.com/user-attachments/assets/682b6fba-f9c5-4838-815f-0aac55506e08)  
+![Screenshot 2](https://github.com/user-attachments/assets/195b497d-2c7a-4816-89b0-155cdf0891c9)  
+![Screenshot 3](https://github.com/user-attachments/assets/ccbbec0a-a0d0-4bbf-9081-8246cfcdcefb)  
+![Screenshot 4](https://github.com/user-attachments/assets/a208a873-f7c6-4304-9e44-edef4b4537b6)  
+![Screenshot 5](https://github.com/user-attachments/assets/b3422848-e95a-48c9-b20e-17e567e06853)  
+![Screenshot 6](https://github.com/user-attachments/assets/b72f393e-e6e6-4bbe-b805-94b3cd6cb2bc)  
+![Screenshot 7](https://github.com/user-attachments/assets/77b344a4-39f4-47f0-8b19-a744046abf4c)  
 
 ---
 
